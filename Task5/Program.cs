@@ -4,6 +4,6 @@
 // 918 -> 8
 
 Console.Write("введите трехнзаначное число: ");
-int num = Convert.ToInt32 (Console.ReadLine ());
+int num = Convert.ToInt32(Console.ReadLine());
 int rez = num % 10;
 Console.Write($"последняя цифра: {rez}");
