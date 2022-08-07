@@ -6,17 +6,22 @@
 //       a = -3 b = 9 -> нет
 
 
+internal class Program
+{
+    private static void Main(string[] args)
+    {
         Console.Write("Введите целое число 1: ");
         int num1 = Convert.ToInt32(Console.ReadLine());
         Console.Write("Введите целое число 2: ");
         int num2 = Convert.ToInt32(Console.ReadLine());
 
-   if (num1 == num2 * num2)
- {
-             Console.Write($"число {num1} является квадратом числа {num2}");
- }        
- else 
-        { 
-             Console.Write($"число {num1} не является квадратом числа {num2}");
-         }
-
+        if (num1 == num2 * num2)
+        {
+            Console.Write($"число {num1} является квадратом числа {num2}");
+        }
+        else
+        {
+            Console.Write($"число {num1} не является квадратом числа {num2}");
+        }
+    }
+}
