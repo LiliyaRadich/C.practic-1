@@ -9,4 +9,5 @@ int num1 = -num;
 while (num1 <= num)
 {
     Console.Write($"{num1}, ");
-    num1++
+    num1++;
+}
