@@ -20,6 +20,5 @@ while (count != 3)
     num = num / 10;
     count--;
 }
-num = num % 100;
-num = num % 10;
+num = num % 100 % 10;
 Console.WriteLine($"Третья цифра -> {num}");
